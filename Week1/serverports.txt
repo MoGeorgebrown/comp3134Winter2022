@@ -1,0 +1,37 @@
+1) What is the definition of server port?
+
+The answer is: the logical endpoints of a network connection 
+that is used to exchange information between a web server and a web client.
+
+2) What is server port range?
+
+The answer: is 0 to 65535
+
+3) How many bits does number above represent?
+
+The answer: 16 Bit
+
+
+4) State 10 common server ports
+
+The answer are:
+
+HTTP – Port 80
+HTTPS – 443
+FTP – 21
+FTPS / SSH – 22
+POP3 – 110
+POP3 SSL – 995
+IMAP – 143
+IMAP SSL – 993
+SMTP – 25 (Alternate: 26)
+SMTP SSL – 587
+_______________________________________________
+Explanation(s)
+_______________________________________________
+bits		5		4		3		2		1
+max vals	32		16		8		4		2
+
+
+
+2 ^ N 

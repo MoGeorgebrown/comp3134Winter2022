@@ -1,0 +1,59 @@
+Scan 1000 TCP PORTS
+-------------------
+root@Mahamed-Hassan-Georgebrown:~# nmap leagueoflegends.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-17 19:40 UTC
+Nmap scan report for leagueoflegends.com (3.86.175.74)
+Host is up (0.021s latency).
+Other addresses for leagueoflegends.com (not scanned): 34.197.133.159
+rDNS record for 3.86.175.74: ec2-3-86-175-74.compute-1.amazonaws.com
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 5.04 seconds
+////////////////////////////////////////////////////////////
+
+Scan a single port
+------------------
+root@Mahamed-Hassan-Georgebrown:~# nmap -p 1 netflix.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-17 19:44 UTC
+Nmap scan report for netflix.com (3.211.157.115)
+Host is up (0.022s latency).
+Other addresses for netflix.com (not scanned): 3.225.92.8 54.160.93.182 2600:1f18:631e:2f85:93a9:f7b0:d18:89a7 2600:1f18:631e:2f84:4f7a:4092:e2e9:c617 2600:1f18:631e:2f83:49ee:beaa:2dfd:ae8f
+rDNS record for 3.211.157.115: ec2-3-211-157-115.compute-1.amazonaws.com
+
+PORT  STATE    SERVICE
+1/tcp filtered tcpmux
+
+Nmap done: 1 IP address (1 host up) scanned in 0.36 seconds
+/////////////////////////////////////////////////////////////////
+
+Scan a range of ports
+---------------------
+root@Mahamed-Hassan-Georgebrown:~# nmap -p 1-50 youtube.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-17 19:42 UTC
+Nmap scan report for youtube.com (142.251.32.78)
+Host is up (0.0024s latency).
+Other addresses for youtube.com (not scanned): 2607:f8b0:400b:80f::200e
+rDNS record for 142.251.32.78: yyz12s07-in-f14.1e100.net
+All 50 scanned ports on youtube.com (142.251.32.78) are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 2.15 seconds
+////////////////////////////////////////////////////////////
+
+Scan 100 most common ports
+--------------------------
+root@Mahamed-Hassan-Georgebrown:~# nmap -F amazon.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-17 19:45 UTC
+Nmap scan report for amazon.com (176.32.103.205)
+Host is up (0.021s latency).
+Other addresses for amazon.com (not scanned): 54.239.28.85 205.251.242.103
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.23 seconds
+
+

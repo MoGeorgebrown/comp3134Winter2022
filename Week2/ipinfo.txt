@@ -1,0 +1,24 @@
+1. Leagueoflegends
+Domain Name Server IP: 3.86.175.74
+
+Domain Name Server IP: 34.197.133.159
+
+2. Netflix
+Domain Name Server IP: 3.225.92.8
+
+Domain Name Server IP: 54.160.93.182
+
+Domain Name Server IP: 3.211.157.115
+
+3.
+Domain Name Server IP: 176.32.103.205
+
+Domain Name Server IP: 205.251.242.103
+
+Domain Name Server IP: 54.239.28.85
+
+4.
+Domain Name Server IP: 34.149.167.182
+
+5.
+Domain Name Server IP: 208.91.197.27

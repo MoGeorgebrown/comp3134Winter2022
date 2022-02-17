@@ -1,0 +1,3 @@
+root@Mahamed-Hassan-Georgebrown:~# traceroute 68.183.204.155
+traceroute to 68.183.204.155 (68.183.204.155), 30 hops max, 60 byte packets
+ 1  Mahamed-Hassan-Georgebrown (68.183.204.155)  0.096 ms  0.015 ms  0.017 ms

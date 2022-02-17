@@ -1,0 +1,5 @@
+root@Mahamed-Hassan-Georgebrown:~# ping 68.183.204.155
+PING 68.183.204.155 (68.183.204.155) 56(84) bytes of data.
+64 bytes from 68.183.204.155: icmp_seq=1 ttl=64 time=0.090 ms
+64 bytes from 68.183.204.155: icmp_seq=2 ttl=64 time=0.093 ms
+64 bytes from 68.183.204.155: icmp_seq=3 ttl=64 time=0.080 ms
